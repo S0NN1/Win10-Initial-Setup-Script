@@ -1,0 +1,132 @@
+##########
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
+# Author: Disassembler <disassembler@dasm.cz>
+# Version: v3.10, 2020-07-15
+# Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
+##########
+
+### Require administrator privileges ###
+RequireAdmin
+
+### Privacy Tweaks ###
+DisableTelemetry
+DisableWiFiSense
+DisableSmartScreen
+DisableWebSearch
+DisableAppSuggestions
+DisableActivityHistory
+DisableLocation
+DisableMapUpdates
+DisableFeedback
+DisableTailoredExperiences
+DisableAdvertisingID
+DisableWebLangList
+DisableErrorReporting
+SetP2PUpdateLocal
+DisableDiagTrack
+DisableWAPPush
+DisableRecentFiles
+
+### UWP Privacy Tweaks ###
+DisableUWPBackgroundApps
+
+### Security Tweaks ###
+SetUACLow
+EnableAdminShares
+EnableFirewall
+HideDefenderTrayIcon
+EnableDefender
+EnableDefenderCloud
+EnableCtrldFolderAccess
+HideAccountProtectionWarn
+DisableScriptHost
+DisableMeltdownCompatFlag
+EnableF8BootMenu
+SetDEPOptOut
+
+### Network Tweaks ###
+SetCurrentNetworkPrivate
+DisableLLMNR
+DisableRemoteAssistance
+EnableRemoteDesktop
+
+### Service Tweaks ###
+EnableUpdateMSProducts
+DisableUpdateRestart
+DisableMaintenanceWakeUp
+DisableSharedExperiences
+DisableAutoplay
+DisableAutorun
+DisableStorageSense
+DisableDefragmentation
+DisableSuperfetch
+EnableNTFSLongPaths
+DisableHibernation
+EnableSleepButton
+
+### UI Tweaks ###
+DisableActionCenter
+DisableLockScreen
+HideNetworkFromLockScreen
+HideShutdownFromLockScreen
+DisableAeroShake
+DisableAccessibilityKeys
+ShowTaskManagerDetails
+ShowFileOperationsDetails
+DisableFileDeleteConfirm
+HideTaskbarSearch
+HideTaskView
+SetTaskbarCombineWhenFull
+HideTaskbarPeopleIcon
+DisableSearchAppInStore
+DisableShortcutInName
+HideShortcutArrow
+SetVisualFXPerformance
+SetAppsDarkMode
+SetSystemDarkMode
+DisableStartupSound
+DisableF1HelpKey
+
+### Explorer UI Tweaks ###
+ShowKnownExtensions
+ShowHiddenFiles
+EnableNavPaneExpand
+HideNavPaneLibraries
+HideSyncNotifications
+HideRecentShortcuts
+SetExplorerThisPC
+HideQuickAccess
+ShowUserFolderOnDesktop
+ShowControlPanelOnDesktop
+HideDesktopFromThisPC
+Hide3DObjectsFromThisPC
+DisableThumbnailCache
+DisableThumbsDBOnNetwork
+
+### Application Tweaks ###
+UninstallMsftBloat
+UninstallThirdPartyBloat
+DisableXboxFeatures
+DisableAdobeFlash
+DisableEdgePreload
+DisableEdgeShortcutCreation
+DisableIEFirstRun
+DisableFirstLogonAnimation
+DisableMediaSharing
+EnableDeveloperMode
+UninstallInternetExplorer
+UninstallHelloFace
+InstallLinuxSubsystem
+InstallHyperV 
+InstallSSHClient
+InstallSSHServer
+InstallTelnetClient
+RemoveFaxPrinter
+
+### Unpinning ###
+UnpinStartMenuTiles
+UnpinTaskbarIcons
+
+### Auxiliary Functions ###
+WaitForKey
+Restart
